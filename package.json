@@ -1,0 +1,22 @@
+{
+  "name": "mercadoliebre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoacu/mercadoliebre.git"
+  },
+  "author": "Nico Acu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicoacu/mercadoliebre/issues"
+  },
+  "homepage": "https://github.com/nicoacu/mercadoliebre#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
