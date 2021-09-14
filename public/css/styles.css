@@ -1,3 +1,15 @@
 #id {
     background-color:yellow;
 }
+
+#header {
+    background-color:#EAC926;
+    font-family: 'Roboto'; 
+}
+
+.burger-menu {
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    border: 1px solid blue;
+}

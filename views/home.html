@@ -8,32 +8,49 @@
     <title>Mercado Liebre</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css\styles.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/> <!--Importing Icons from Font Awesome-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> <!-- Embeding font Roboto from fonts.google -->
 </head>
 
 <body>
 
-    <img src="images\logo-mercado-liebre.svg" alt="Mercado Liebre" id="logo">
-
-    <p>Lugar para poner barra de búsqueda.</p>
-
-    <p>Comprá en cuotas y sin tarjeta de crédito.</p>
+<!---Header-->
 
     <header>
-        <nav>
-            <li><a href="Ofertas">Ofertas</a></li>
-            <li></a><a href="Tiendas Oficiales">Tiendas Oficiales</a></li>
-            <li><a href="Vender">Vender</a></li>
-            <li><a href="Ayuda">Ayuda</a></li>
+        <section id="header"> <!---id css context = background: #yellow, font: roboto--->
+
+            <img src="images\logo-mercado-liebre.svg" alt="Mercado Liebre" id="logo">
+
+            <p>Lugar para poner barra de búsqueda.</p>
+
+            <p>Comprá en cuotas y sin tarjeta de crédito.</p>
+
+    
+            <nav>
+                <ul>
+                    <li><a href="Ofertas">Ofertas</a></li>
+                    <li></a><a href="Tiendas Oficiales">Tiendas Oficiales</a></li>
+                    <li><a href="Vender">Vender</a></li>
+                    <li><a href="Ayuda">Ayuda</a></li>
+                    <br/>
+                    <li><a href="Creá tu cuenta">Creá tu cuenta</a></li>
+                    <li><a href="Ingresá">Ingresá</a></li>
+                    <li><a href="Mis Compras">Mis Compras</a></li>
+                    <br/>
+                </ul>
+            </nav>    
+
+            <div class="burger-menu">
+                <i class="fa fa-bars burger"></i>
+            </div>
             <br/>
-            <li><a href="Creá tu cuenta">Creá tu cuenta</a></li>
-            <li><a href="Ingresá">Ingresá</a></li>
-            <li><a href="Mis Compras">Mis Compras</a></li>
-            <br/>
-        </nav>    
+
+        </section>
 
     </header>
+
+<!---Main-->
 
     <main>
         <ul type="square"><strong>Sección: Basado en tu última visita.</strong></ul>
@@ -104,6 +121,9 @@
 
 
 </body>
+
+<!---Footer -->
+
 <footer>
     <section>
         <h3>Pagá con tarjeta o en efectivo </h3>
