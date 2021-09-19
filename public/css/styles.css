@@ -1,4 +1,7 @@
 /* Header */
+* {
+    box-sizing: border-box;
+}
 
 #header {
     display: flex;
@@ -57,7 +60,6 @@ p{
 
 .imagen-producto{
     width: 50%;
-    height: 50%;
 }
 
 
