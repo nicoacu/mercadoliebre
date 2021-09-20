@@ -22,11 +22,17 @@
 }
 
 .contenedor-logo-buscador{
-    justify-content: center;
-    display: flex;
+    border: 0px;
+    border-radius: 3px;
+    width: 60%;
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 40px;
+    text-align: center;
 }
 
 #contenedor-cuotas {
+  display: flex;  
   text-align: center;
   justify-content: center;
   padding-top: 15px;
@@ -54,6 +60,8 @@ a:active:visited {
 
 body{
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 main {
@@ -64,29 +72,31 @@ main {
 }
 
 .ultima-visita{
-    margin: 10px 0px;
+    padding: 10px 0px;
 }
 
 .titular {
     font-size: 24px;
-    background-color:white;
     padding-top: 1%;
     padding-bottom: 1%;
 }
 
 .producto{
-    margin: 10px;
-    background-color: #ebebeb;
+    margin: 10px;   
     display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 .producto-container{
-    background-color:rgb(255, 255, 255);
+    background-color:white;
 
 }
 .producto-detalle {
     border-top: 1px solid #ebebeb;
+    background-color: white;
     padding: 15px;
+    text-align:left;
 }
 /* Footer */
 
@@ -120,7 +130,7 @@ p{
 }
 
 .imagen-producto{
-    width: 50%;
+    max-width: 80%
 }
 
 
@@ -131,6 +141,7 @@ p{
 
 .descuentos {
     font-size:16px;
+    color: #39b54a;
 }
 
 .descripciones {
