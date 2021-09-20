@@ -1,6 +1,8 @@
 /* Header */
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 #header {
@@ -8,7 +10,7 @@
     flex-direction: column;
     background-color:#EAC926;
     align-content: center;
-    width:100%;
+    width:100vw;
 }
 
 #logo {
@@ -20,13 +22,72 @@
 }
 
 .contenedor-logo-buscador{
-    /*justify-content: center;
-    display: flex;*/
+    justify-content: center;
+    display: flex;
 }
+
+#contenedor-cuotas {
+  text-align: center;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+a {
+    color: black;
+    font-size: 12px;
+}
+  
+a:link {
+    text-decoration: none;
+    color: black;
+}
+  
+a:active:visited {
+    text-decoration: none;
+    color: black;
+}
+
 
 
 /* Body */
 
+body{
+    width: 100%;
+}
+
+main {
+    margin: auto;
+    width: 90vw;
+    text-align: center;
+    background-color:#ebebeb;
+}
+
+.ultima-visita{
+    margin: 10px 0px;
+}
+
+.titular {
+    font-size: 24px;
+    background-color:white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.producto{
+    margin: 10px;
+    background-color: #ebebeb;
+    display: flex;
+}
+
+.producto-container{
+    background-color:rgb(255, 255, 255);
+
+}
+.producto-detalle {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
 /* Footer */
 
 ul {
@@ -76,9 +137,7 @@ p{
     font-size: 16px;
 }
 
-.titular {
-    font-size: 24px;
-}
+
 
 .icono-nav {
     display: flex;
@@ -104,5 +163,5 @@ p{
 }
 
 .copyright{
-
+    text-align: center;
 }
