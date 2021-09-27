@@ -295,4 +295,30 @@ footer p {
   .burger-menu {
     display: none;
   }
+
+  nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+
+  nav li {
+    margin: 0 8px;
+  }
+  .icono-nav i {
+    margin-left: 5px;
+  }
+
+  .left-navbar {
+    display: flex;
+    width: 50%;
+    margin-left: 10px;
+  }
+
+  .right-navbar {
+    display: flex;
+    width: 50%;
+    margin-right: 10px;
+  }
 }
