@@ -81,7 +81,7 @@ body {
 
 main {
   /*margin: auto;*/
-  width: 90vw;
+  width: 100vw;
   text-align: center;
   background-color: #ebebeb;
 }
@@ -180,6 +180,10 @@ footer p {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+.icono-nav i {
+  margin-left: 5px;
 }
 
 .iconos-footer {
