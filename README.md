@@ -10,7 +10,7 @@ Using primarily HTML, CSS, Node.js and Express.js, the purpose is to replicate a
 
 Note that the purpose is to work with all the languages and frameworks that we're using, so the final result might have unfinished features (e.g: hyperlinks that doesn't redirect anywhere).</p>
 
-[Heroku Preview]
+[Heroku Preview].
 
 <!-- links -->
 
