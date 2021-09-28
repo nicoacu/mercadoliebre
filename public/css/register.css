@@ -122,4 +122,22 @@ header {
   .burger-menu {
     display: none;
   }
+
+  .container-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .section-footer {
+    padding: 2rem 3rem;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .copyright {
+    font-size: 12px;
+    display: block;
+  }
 }
