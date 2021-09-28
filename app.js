@@ -4,7 +4,7 @@ const path = require("path");
 
 app.use(express.static("public"));
 
-app.listen(process.env.PORT || 3000, function () {
+app.listen(process.env.PORT || 3030, function () {
   console.log("Server successfully started at http://localhost:3030");
 });
 
