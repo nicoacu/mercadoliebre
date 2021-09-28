@@ -17,10 +17,17 @@
 }
 
 #buscador {
-  max-width: 200px;
+  max-width: 150px;
   max-height: 80%;
   align-self: center;
-  padding: 0 10px;
+  padding-left: 10px;
+}
+
+.lupa {
+  display: inline;
+  align-self: center;
+  justify-self: flex-end;
+  flex-wrap: wrap;
 }
 
 #logo {
@@ -37,7 +44,13 @@
 }
 
 #contenedor-cuotas {
-  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  text-align: right;
+  align-items: center;
+  padding: 10px 0;
 }
 
 #cuotas-header {
@@ -84,6 +97,17 @@ main {
   width: 100vw;
   text-align: center;
   background-color: #ebebeb;
+}
+
+#contenedor-banner {
+  display: block;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#banner {
+  width: 100vw;
 }
 
 .ultima-visita {
@@ -209,13 +233,20 @@ footer p {
 
 /*Mobile*/
 
-@media (max-width: 360px) {
+@media (max-width: 767px) {
   .descripciones {
     display: none;
   }
 
   nav {
     display: none;
+  }
+
+  #contenedor-banner {
+    display: none;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -228,16 +259,6 @@ footer p {
 
   .burger-menu {
     display: none;
-  }
-
-  #header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: #eac926;
-    align-content: center;
-    padding-top: 10px;
   }
 
   #contenedor-cuotas {
@@ -268,12 +289,15 @@ footer p {
     display: flex;
     width: 50%;
     margin-left: 10px;
+    justify-content: left;
   }
 
   .right-navbar {
     display: flex;
     width: 50%;
+    flex: 50%;
     margin-right: 10px;
+    justify-content: right;
   }
 
   .section-footer {
@@ -314,11 +338,14 @@ footer p {
     display: flex;
     width: 50%;
     margin-left: 10px;
+    justify-content: left;
   }
 
   .right-navbar {
     display: flex;
     width: 50%;
+    flex: 50%;
     margin-right: 10px;
+    justify-content: right;
   }
 }
