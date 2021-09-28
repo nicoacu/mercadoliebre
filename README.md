@@ -1,6 +1,6 @@
-<p align="center">## Mercado Liebre
+<h2 align="center"> Mercado Liebre </h2>
 
-<img width="75%" src="https://i.imgur.com/WzcsRvo.png" align="center" alt="Mockup home" />
+<img width="90%" src="https://i.imgur.com/WzcsRvo.png" align="center" alt="Mockup home"/>
 
 #
 
